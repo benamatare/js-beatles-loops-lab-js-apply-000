@@ -9,9 +9,10 @@ describe('Beatles Loops', function() {
 */
 
 function theBeatlesPlay(musicians, instruments) {
-  newArr = [];
-  for (i=0;i<1;i++){
-    newArr.push(musicians[i] + instruments[i])
+  var combinedStuff = [];
+  
+  for (var i=0; i < musicians.length; i++) {
+    combinedStuff.push(musicians[i] += " plays the " + instruments[i]);
   }
-  return theBeatlesPlay();
+  return combinedStuff;
 }
