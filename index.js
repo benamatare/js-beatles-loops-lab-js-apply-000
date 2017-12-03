@@ -1,5 +1,4 @@
 
-*/
 // This says that this function looks at musicians and instruments (two arrays)
 // and creates a new array
 // then it iterates through each array
@@ -25,5 +24,5 @@ function johnLennonFacts() {
     factual.push(facts[i] +"!!!");
     i++;
   }
-  return newArr;
+  return factual;
 }
