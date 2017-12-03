@@ -13,5 +13,5 @@ function theBeatlesPlay(musicians, instruments) {
   for (i=0;i<1;i++){
     newArr.push(musicians[i] + instruments[i])
   }
-  return newArr();
+  return newArr[];
 }
