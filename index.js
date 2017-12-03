@@ -8,8 +8,8 @@ describe('Beatles Loops', function() {
   });
 */
 // This says that this function looks at musicians and instruments (two arrays)
-// and creates a new array 
-// then it iterates through each array 
+// and creates a new array
+// then it iterates through each array
 // then combines the indexes and the text plays
 // into the new array as musicians[1] + "plays" instruments[1]
 function theBeatlesPlay(musicians, instruments) {
@@ -24,7 +24,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
   newArr = [];
   var i = 0;
-  
+
   while (i < facts.length) {
     newArr.push(facts[i] +"!!!");
     i++;
